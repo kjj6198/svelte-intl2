@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 11
           registry-url: https://registry.npmjs.org/
-      - run: npm
+      - run: npm ci
       - run: npm publish svelte-i18n
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
