@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i18n example</title>
+    <%- head %>
+  </head>
+  <body>
+    <%- html %>
+
+    <script id="locale">
+      window.locale = <%- JSON.stringify(locale) %>
+    </script>
+  </body>
+</html>
