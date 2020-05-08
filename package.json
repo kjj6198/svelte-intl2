@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple svelte i18n implementation",
   "author": "Kalan <kjj6198@gmail.com>",
-  "repository": "https://github.com/kjj6198/svelte-intl",
+  "repository": "https://github.com/kjj6198/svelte-intl2",
   "keywords": [
     "svelte",
     "i18n"
